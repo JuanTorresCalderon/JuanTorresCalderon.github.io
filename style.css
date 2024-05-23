@@ -1,0 +1,82 @@
+/*CSS*/
+html {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-image: url('img/IMG_6028.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color:black;
+    color: white; 
+    padding: 3rem 2rem; 
+    }
+
+header h1{
+    font-size: 4rem;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+}
+
+section article  {
+    transition: box-shadow 0.3s ease;
+    background-color: aqua;
+    margin: 5rem 0;
+    border-radius: 0.8rem;
+    padding: 2rem 0;
+    cursor: pointer;
+    
+}
+
+section article h2, section article p {
+ 
+    margin: 1rem;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+
+}
+
+footer {
+    background-color: black;
+    padding: 3rem;
+    color:white;
+
+}
+
+footer section {
+    float:right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+        display: inline;
+        margin-right: 10px;
+        
+}
+footer a {
+
+    Color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+
